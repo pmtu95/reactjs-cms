@@ -1,0 +1,69 @@
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.site-layout {
+  transition: all 0.2s ease-in-out;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.card {
+  .ant-card-body {
+    padding: 12px;
+  }
+}
+
+.card-meta {
+  .ant-card-meta-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: inherit;
+  }
+}
+
+.carousel {
+  .control-dots {
+    display: none;
+  }
+
+  .thumbs-wrapper {
+    margin: 8px;
+    overflow: scroll;
+
+    .thumbs {
+      padding: 0;
+      margin: 0;
+      transform: none !important;
+
+      li {
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+
+    .control-arrow {
+      display: none;
+    }
+  }
+}
